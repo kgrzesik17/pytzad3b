@@ -3,7 +3,7 @@ def palindromes(text:str):
     This function returns a list of all palindromes contained in specified text.
 
     Input:
-    text - text user wants to analize
+    text - text user wants to analyze
 
     Output:
     list - list of palindromes
