@@ -29,3 +29,8 @@ def perfect_numbers(min:int, max:int):
     except:
         print("Nieznany błąd.")
         return False
+
+numbers = perfect_numbers(1, 500)
+
+for number in numbers:
+    print(number)
