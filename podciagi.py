@@ -16,7 +16,7 @@ def substrings(text:str, n:int):
         if len(i) == n:
             yield i
 
-words = substrings("marek sam zbudowal dom", 3)
+words = substrings("tom sam zbudowal dom", 3)
 
 for word in words:
     print(word)
